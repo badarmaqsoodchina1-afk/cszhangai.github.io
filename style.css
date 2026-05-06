@@ -1,81 +1,156 @@
-body{
-    margin:0;
-    padding:0;
-    background:#f2f2f2;
-    font-family:Arial, Helvetica, sans-serif;
-}
+<!DOCTYPE html>
+<html lang="en">
 
-.container{
-    width:80%;
-    margin:auto;
-    padding-top:30px;
-}
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chongsheng Zhang</title>
 
-.navbar{
-    background:white;
-    padding:20px;
-    border-radius:10px;
-    margin-bottom:30px;
-    text-align:center;
-    font-size:24px;
-    font-weight:bold;
-}
+  <link rel="stylesheet" href="style.css">
+</head>
 
-.navbar a{
-    text-decoration:none;
-    color:#1a4fff;
-    margin:10px;
-}
+<body>
 
-.profile-card{
-    background:white;
-    padding:40px;
-    border-radius:10px;
-    display:flex;
-    gap:50px;
-    align-items:center;
-    margin-bottom:30px;
-}
+<div class="container">
 
-.profile-image img{
-    width:250px;
-    border-radius:10px;
-}
+  <!-- Navigation -->
+  <div class="navbar">
+    <a href="#home">Home</a>
+    <span>·</span>
+    <a href="#research">Research</a>
+    <span>·</span>
+    <a href="#publications">Publications</a>
+    <span>·</span>
+    <a href="#team">Team</a>
+    <span>·</span>
+    <a href="#awards">Awards</a>
+  </div>
 
-.profile-info h1{
-    font-size:50px;
-    margin-bottom:5px;
-}
+  <!-- Profile Section -->
+  <div class="profile-card" id="home">
 
-.profile-info h2{
-    margin-top:0;
-    font-size:40px;
-}
+    <div class="profile-image">
+      <img src="images/zhang.gif" alt="Professor Image">
+    </div>
 
-.profile-info p{
-    font-size:24px;
-    line-height:1.8;
-}
+    <div class="profile-info">
 
-.links a{
-    text-decoration:none;
-    color:#1a4fff;
-    font-size:22px;
-}
+      <h1>Chongsheng Zhang</h1>
 
-.section{
-    background:white;
-    padding:30px;
-    border-radius:10px;
-    margin-bottom:30px;
-}
+      <h2>张重生</h2>
 
-.section h3{
-    font-size:36px;
-}
+      <p>Professor</p>
 
-.section p,
-.section li{
-    font-size:22px;
-    line-height:1.8;
-}
+      <p>School of Computer and Information Engineering</p>
+
+      <p>Henan University</p>
+
+      <p>Email: cszhangai@qq.com</p>
+
+      <div class="links">
+        <a href="https://scholar.google.com/citations?hl=en&user=iCmyLZYAAAAJ&view_op=list_works" target="_blank">
+          Google Scholar
+        </a>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- Bio -->
+  <div class="section">
+
+    <h3>Short Bio</h3>
+
+    <p>
+      Chongsheng Zhang (Senior Member, IEEE) received the Ph.D. degree from INRIA, France.
+      Since then, he has been working with Henan University, China, where he is a Professor
+      and a Leader of the Data Science and Artificial Intelligence Team.
+    </p>
+
+    <p>
+      He has published 60 papers in peer-reviewed journals and conferences,
+      including AAAI and KDD. He has authored eight books and filed
+      20 Chinese patents.
+    </p>
+
+    <p>
+      His research interests include imbalance learning,
+      OCR, and digital paleography.
+    </p>
+
+  </div>
+
+  <!-- Research Interests -->
+  <div class="section" id="research">
+
+    <h3>Research Interests</h3>
+
+    <ul>
+      <li>Machine Learning</li>
+      <li>Artificial Intelligence</li>
+      <li>OCR Systems</li>
+      <li>Digital Paleography</li>
+      <li>Imbalance Learning</li>
+    </ul>
+
+  </div>
+
+  <!-- Publications -->
+  <div class="section" id="publications">
+
+    <h3>Selected Publications</h3>
+
+    <ul>
+      <li>
+        An up-to-date comparison of state-of-the-art classification algorithms.
+      </li>
+
+      <li>
+        Multi-imbalance: An open-source software for multi-class imbalance learning.
+      </li>
+
+      <li>
+        Data-driven oracle bone rejoining: A dataset and practical self-supervised learning scheme.
+      </li>
+
+      <li>
+        AI-powered oracle bone inscriptions recognition and fragments rejoining.
+      </li>
+    </ul>
+
+  </div>
+
+  <!-- Team -->
+  <div class="section" id="team">
+
+    <h3>Team</h3>
+
+    <p>
+      Data Science and Artificial Intelligence Team, Henan University.
+    </p>
+
+    <p>
+      Team member information will be added here.
+    </p>
+
+  </div>
+
+  <!-- Awards -->
+  <div class="section" id="awards">
+
+    <h3>Awards and Achievements</h3>
+
+    <ul>
+      <li>Senior Member, IEEE</li>
+      <li>60+ peer-reviewed research papers</li>
+      <li>Eight authored books</li>
+      <li>20 Chinese patents</li>
+    </ul>
+
+  </div>
+
+</div>
+
+</body>
+</html>
